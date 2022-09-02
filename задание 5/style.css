@@ -1,0 +1,66 @@
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+.block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.input {
+    width: 200px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 10px;
+    border: 1px solid black;
+
+}
+.btn {
+    align-self: flex-end;
+    width: 70px;
+    height: 29px;
+    background-color: rgb(27, 70, 189);
+    color: white;
+    text-align: center;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+.btn:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.answer{
+    min-width: 100px;
+    min-height: 20px;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.image{
+    object-fit: cover;
+    width: 24%;
+}
+.title{
+    font-size: 15px;
+    text-transform: uppercase;
+}
